@@ -32,6 +32,8 @@ namespace OSProject
 
             LogoASCII.main(); // Initialize Logo.
 
+            console.Writeline(" Copyright (c) Squirrel Computers and Squirrix
+            
             Console.WriteLine(""); // Get system date & time.
             DateTime date = DateTime.Now;
             Console.WriteLine(date);
