@@ -36,7 +36,7 @@ namespace OSProject
             DateTime date = DateTime.Now;
             Console.WriteLine(date);
 
-            Console.WriteLine("\n\nOperating System booted successfully! Press ENTER to continue");
+            Console.WriteLine("\n\nOSQUIRRIX has booted successfully! Press ENTER to continue");
             Console.ReadLine();
             Console.WriteLine("Enter a command or type 'HELP' to get started.");
 
@@ -60,7 +60,7 @@ namespace OSProject
                 Console.WriteLine("\nPassword");
                 pass = Console.ReadLine();
 
-                if (un == "Admin" && pass == "os")
+                if (un == "system" && pass == "os")
                 {
                     x = '0';
                     Console.WriteLine("The system was unlocked!");
