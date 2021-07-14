@@ -98,7 +98,7 @@ namespace OSProject
             if (File.Exists(cpfile) && Directory.Exists(dest))
                 File.Copy(currpath + cpfile, dest);
             else
-                Console.WriteLine("Enither the file or the destination directory does not exist!");
+                Console.WriteLine("Either the file or the destination directory does not exist!");
         }
 
         /*public void move() // Moves a file from a directory to a specified destination provided it exists. Bugging out idk why.
