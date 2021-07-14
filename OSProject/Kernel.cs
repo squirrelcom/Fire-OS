@@ -38,7 +38,7 @@ namespace OSProject
             DateTime date = DateTime.Now;
             Console.WriteLine(date);
 
-            Console.WriteLine("\n\nOSQUIRRIX has booted successfully! Press ENTER to continue");
+            Console.WriteLine("\n\nSQUIRRIX has booted successfully! Press ENTER to continue");
             Console.ReadLine();
             Console.WriteLine("Enter a command or type 'HELP' to get started.");
 
