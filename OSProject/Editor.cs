@@ -132,7 +132,7 @@ namespace OSProject
         public static void Run(string file)
         {
             DrawScreen();
-            Console.WriteLine("Welcome to Trieme text editor!");
+            Console.WriteLine("Welcome to Squirrel text editor!");
             Console.WriteLine("Once you have finished you can type '@SAVE' to save your file or '@END'");
             Console.WriteLine("to close without saving. '@RESET' can be used to reset the file");
             Console.WriteLine("Press Enter key to begin!");
