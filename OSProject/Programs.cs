@@ -18,12 +18,12 @@ namespace OSProject
             bool exit = false;
             do
             {
-                Console.WriteLine("The following programs are installed on this OS.\n");
+                Console.WriteLine("The following programs are installed on Squirrix\n");
                 Console.WriteLine("1. Text Editor"); 
                 Console.WriteLine("2. Calculator");
                 Console.WriteLine("3. Music Player"); 
                 Console.WriteLine("4. X-O Game"); 
-                Console.WriteLine("5. Basic GUI");
+                Console.WriteLine("5. SqUIrrel");
                 Console.WriteLine("6. Exit\n\n");
 
                 Console.WriteLine("Enter the choice of program.");
