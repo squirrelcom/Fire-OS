@@ -28,7 +28,7 @@ namespace OSProject
 
             for (int i = 0; i < fire.Length; i++)
             {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(fire[i]);
                 for(int k=0;k<1000;k++)
                 {
