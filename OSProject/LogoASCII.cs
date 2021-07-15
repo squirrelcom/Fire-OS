@@ -8,7 +8,7 @@ namespace OSProject
     {
         public static void main()
         {
-            Console.ForegroundColor = ConsoleColor.Purple;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(" .d8888b.   .d88888b.  888     888 8888888 8888888b.  8888888b.  8888888 Y88b   d88P");
             Console.WriteLine("d88P  Y88b d88P" "Y88b 888     888   888   888   Y88b 888   Y88b   888    Y88b d88P");
             Console.WriteLine("Y88b.      888     888 888     888   888   888    888 888    888   888     Y88o88P");
