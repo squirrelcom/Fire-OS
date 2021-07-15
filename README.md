@@ -1,7 +1,4 @@
 # Squirrix
-@settings {
-  font-size: 10;
-}
 Source code for a unix like operating system
 
  .d8888b.   .d88888b.  888     888 8888888 8888888b.  8888888b.  8888888 Y88b   d88P 
