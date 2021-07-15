@@ -32,7 +32,7 @@ namespace OSProject
 
             LogoASCII.main(); // Initialize Logo.
 
-            console.Writeline(" Copyright (c) Squirrel Computers and Squirrix
+            console.Writeline(" Copyright (c) 22/2021 Squirrel Computers and Squirrix
             
             Console.WriteLine(""); // Get system date & time.
             DateTime date = DateTime.Now;
@@ -62,7 +62,7 @@ namespace OSProject
                 Console.WriteLine("\nPassword");
                 pass = Console.ReadLine();
 
-                if (un == "system" && pass == "os")
+                if (un == " main" && pass == "build")
                 {
                     x = '0';
                     Console.WriteLine("The system was unlocked!");
@@ -110,7 +110,7 @@ namespace OSProject
                                     Console.WriteLine("\t - Calculator");
                                     Console.WriteLine("\t - Music Player");
                                     Console.WriteLine("\t - XnO Game");
-                                    Console.WriteLine("\t - Basic GUI\n");
+                                    Console.WriteLine("\t - SqUIrrel\n");
                                     break;
 
                                 case "2":
@@ -195,7 +195,7 @@ namespace OSProject
                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                     Console.WriteLine("shutdown");
                                     Console.ForegroundColor = ConsoleColor.White;
-                                    Console.Write("\t - About FIRE OS - "); // Tells us about the created OS.
+                                    Console.Write("\t - About SQUIRRIX - "); // Tells us about the created OS.
                                     Console.ForegroundColor = ConsoleColor.DarkRed;
                                     Console.WriteLine("about");
                                     Console.ForegroundColor = ConsoleColor.White;
