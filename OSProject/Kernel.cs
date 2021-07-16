@@ -102,9 +102,9 @@ namespace OSProject
                             {
                                 case "1":
                                     Console.WriteLine("THE RED WORDS ARE THE COMMANDS!\n");
-                                    Console.Write("1. Programs - ");
+                                    Console.Write("1. SQUIRRIX WARE - ");
                                     Console.ForegroundColor = ConsoleColor.DarkRed;
-                                    Console.WriteLine("programs\n");
+                                    Console.WriteLine("squiware\n");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     Console.WriteLine("\t - Text Editor"); // Contains bugs.
                                     Console.WriteLine("\t - Calculator");
@@ -208,7 +208,7 @@ namespace OSProject
                             }
                             break;
 
-                        case "programs":
+                        case "squiware":
                             Programs.main();
                             break;
 
