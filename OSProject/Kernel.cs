@@ -209,7 +209,7 @@ namespace OSProject
                             break;
 
                         case "squiware":
-                            LogoASCII.main();
+                            LogoS.main();
                             Programs.main();
                             break;
 
