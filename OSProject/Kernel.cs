@@ -212,6 +212,27 @@ namespace OSProject
                             LogoS.main();
                             Programs.main();
                             break;
+                            
+                        case "1": // Text Editor.
+                            Editor.Main();
+                            break;
+
+                        case "2": // Calculator.
+                            Calculator.main();
+                           break;
+
+                        case "3": // Music Player.
+                           Song.main();
+                           break;
+
+                        case "4": // X-O Game.
+                           Game.Main();
+                           break;
+
+                        case "5": // Basic GUI.
+                           GUI g = new GUI();
+                           g.main();
+                           break;
 
                         case "fstats":
                             FileSystem.checkstat();
