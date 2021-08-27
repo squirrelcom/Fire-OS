@@ -22,7 +22,7 @@ namespace OSProject
             Console.WriteLine(" Y8888P      Y888888     Y88888P   8888888 888   T88b 888   T88b 8888888 d88P   Y88b ");
             Console.WriteLine("                  Y8b");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("=======================================================================================");
+            Console.WriteLine("=====================================================================================");
         }
     }
 }
